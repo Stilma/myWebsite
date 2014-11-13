@@ -14,3 +14,10 @@ if (userAnswer === 'yes'){
 }else{
     console.log("Oh no! Bieber shakes his head and sings 'I set a pace, so I can race without pacing.'");
 }
+var feedback = prompt('Please rate the game');
+
+if (feedback>8){
+    console.log("Thank you! We should race at the next concert!");
+}else{
+    console.log("I'll keep practicing coding and racing.");
+}
