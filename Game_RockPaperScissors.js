@@ -12,14 +12,12 @@ if(0<=computerChoice<=0.33){
 var compare = function(choice1,choice2){
     if(choice1===choice2){
         return "The result is a tie!"
-    } else if(choice2 === "scissors"){
+    } 
+    else if(choice2 === "scissors"){
         if(choice1 === "paper"){
             return "scissors wins";            
-        }else if(choice2 === "rock"){
-            return "paper wins";
-        }
-        return "rock wins";
-    } else{
+        } else{
         return "paper wins";    
-    };
+        }
+    }
 };
